@@ -1,20 +1,20 @@
 import React, { useContext } from "react";
-import Confetti from 'react-confetti';
+import { Redirect, Route, Switch } from "react-router-dom";
 import { AppContext } from "./AppContextProvider";
-import Button from './components/Button';
+import HomePage from './components/HomePage';
+import NavBar from "./components/NavBar";
 function App() {
-  const { buttonPressed } = useContext(AppContext);
   return (
     <>
-      <p>Test Finished!</p>
-      <p>Press the button below</p>
-      <div className={buttonPressed ? "confettiShow" : "confettiHide"}>
-        <Confetti
-          width={500}
-          height={500}
-        />
-      </div>
-      <Button></Button>
+      <NavBar></NavBar>
+      <Switch>
+        <Route path="/Home">
+          <HomePage />
+        </Route>
+        <Route path="*">
+          <Redirect to="/Home" />
+        </Route>
+      </Switch>
     </>
   );
 }
