@@ -10,7 +10,7 @@ export default function NavBar() {
                 <Container fluid>
                     <div id="navBar">
                         <div>
-                            <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+                            <Navbar.Brand href="/">Share Cook</Navbar.Brand>
                             <HamburgerMenu />
                         </div>
 

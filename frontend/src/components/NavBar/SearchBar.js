@@ -11,7 +11,7 @@ export default function NavBar() {
                     </Form.Label>
                     <InputGroup>
                         <InputGroup.Text><GrSearch></GrSearch></InputGroup.Text>
-                        <FormControl id="inlineFormInputGroupUsername" placeholder="Username" />
+                        <FormControl id="inlineFormInputGroupUsername" placeholder="What's cookin.." />
                     </InputGroup>
                     <Button variant="outline-success">Search</Button>
                 </Form>

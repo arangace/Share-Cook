@@ -10,7 +10,7 @@ export default function HamburgerMenu() {
                 placement="end"
             >
                 <Offcanvas.Header closeButton>
-                    <Offcanvas.Title id="offcanvasNavbarLabel">Offcanvas</Offcanvas.Title>
+                    <Offcanvas.Title id="offcanvasNavbarLabel">Share Cook</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <Nav className="justify-content-end flex-grow-1 pe-3">
