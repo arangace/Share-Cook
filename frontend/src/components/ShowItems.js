@@ -5,7 +5,7 @@ export default function ShowItems() {
     return (
         <>
             <div>Hello</div>
-            <div class="container">
+            <div class="containerGrid">
 
                 <div class="foodItem">Food item1</div>
                 <div class="foodItem">Food item2</div>

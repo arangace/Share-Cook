@@ -5,12 +5,12 @@ export default function HomePage() {
 
     return (
         <>
-            <div class="container" id="home">
-                <Container fluid>
+            <div className="containerGrid" id="home">
+                {/* <Container fluid>
                     <Row>
                         <Col><Button type="button" class="btn btn-primary">Primary</Button></Col>
                     </Row>
-                </Container>
+                </Container> */}
 
             </div>
         </>

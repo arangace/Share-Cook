@@ -1,4 +1,4 @@
-.container {
+.containerGrid {
   background-color: rgb(247, 163, 54);
   display: grid;
   height: 100vh;
@@ -8,15 +8,24 @@
   grid-row-gap: 2rem;
   grid-column-gap: 5rem;
 }
-.home {
+.container {
+  background-color: red;
+}
+#home {
+  background-color: aliceblue;
 }
 .foodItem {
   border: 1px solid black;
 }
-.navBar {
+#navBar {
+  width: 100%;
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
+  gap: 1fr;
   justify-content: space-between;
-  align-items: center;
-  background-color: rgb(100, 155, 168);
+  background-color: rgb(100, 155, 168, 0.5);
+}
+#searchBar {
+  width: clamp(20rem, 40vw, 50rem);
 }
